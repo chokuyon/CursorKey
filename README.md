@@ -26,7 +26,7 @@ csc.exeのパスは、ご自身の環境に合わせて変更してください�
 レジストリを書き換えてCapsLockキーをF13キーに挿げ替えます。F13キーは使えなくなります。  
 （CapsLockキーの押下・解除イベント、他のキーと様子が違ってて、うまくハンドルできなかったです。  
 　なので、(少なくとも私は)使うことのないF13キーと差し替えて誤魔化すことにしました…）  
-レジストリエディタで、'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout'に "Scancode Map"(Binary)を追加し、以下のように編集します。  
+レジストリエディタで、`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout`に "Scancode Map"(Binary)を追加し、以下のように編集します。  
 00 00 00 00 00 00 00 00  
 02 00 00 00 64 00 3A 00  
 00 00 00 00
